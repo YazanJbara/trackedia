@@ -1,39 +1,26 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
-  --color-danger-red : #db3a34;
-  --color-neutral-blue:#177e89;
-  --color-normal-white:#ffffff;
-  --color-medit-green:#439A86;
-  --color-light-blue:#007991;
-  --color-navy:#222E50;
-  --color-light-yellow:#E9D985;
-  --color-light-green:#BCD8C1;
-  --color-default-black:#000000;
+  --color-danger-red: #db3a34;
+  --color-neutral-blue: #177e89;
+  --color-normal-white: #ffffff;
+  --color-medit-green: #439a86;
+  --color-light-blue: #007991;
+  --color-navy: #222e50;
+  --color-light-yellow: #e9d985;
+  --color-light-green: #bcd8c1;
+  --color-default-black: #000000;
 }
 
+*{
+  /* outline: 1px solid red; */
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@layer base {
+  body {
+    background-color: var(--color-normal-white);
+  }
+}
 
 /* shadcn/ui related styles */
 /* @import "tw-animate-css"; */
